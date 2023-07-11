@@ -1,0 +1,87 @@
+Jam Day13
+=========
+1. What is git
+2. What is github
+3. Who owns git and git hub
+4. What is a version control system and why 
+5. Name few version control systems
+6. what is a project in version control system called as
+7. what is fork and clone
+8. when to use clone when to use pull
+clon e: first time u want a local repo
+pull:you already have tyhe localm repo
+9. Where does git init creates a repository
+creates a local repository in local machine
+
+10.When i use git commit -m "message" where are changes present or committed
+local repository
+
+
+11. What does git status do
+list all the new modified files to be commited
+12. what is git log
+list all the ,commits in repository
+
+13. how do we connect to a remote git hub from local machine
+git config --global user.name "name"
+git config --global user.email "emailid"
+git confign--global -list
+give the commands
+
+14. what is master and main
+default branch for each repo which is created
+both are same
+
+15. why branching
+ 
+16. how to create a brach
+create branch name
+17. what does the following command do
+git checkout branchname
+shift the pointer to new branch
+
+18. when should we use merge and why and who will do it
+merge will combine the branch with another branch
+project manager/team
+
+19. command to use merge
+ensure you are on the right branch
+git merge source branch
+git commit
+
+20. the process of saving the changes in a temporary location so that we can switch to a new branch and apply the changes
+we can switch
+21. the process of undo the changes to the branch is called as
+22. syntax to stash
+git stash "message"
+
+23. syntax to apply stash
+git stash apply
+
+24. syntax to drop a stash
+git stash drop
+
+25. syntax to reset
+git reset "head.branchname"
+
+26. difference between commit and push
+save in the local repo
+push will update the changes from local repo to remote repo
+
+27. difference between git push  and git push -f
+local repo to remote repo
+forcefully
+
+28. what does git add . do
+add the changes to staging area
+
+29. how to add only one file to the commit
+git add filename
+
+30 what is a read me file and why
+description about repo
+guide or assiostance to user abiout diff branches
+
+31. what is a .gitignore file and why
+it is file which has all the names of libraries,files and folder which should not be addes to repo
+can i perform all, the operations directory in github using the graphical user interface yes
